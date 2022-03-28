@@ -1,0 +1,29 @@
+Model Metrics:
+
+Final Model: Decision Tree Classifier
+
+Parameters:
+ 'ccp_alpha': 0.0,
+ 'class_weight': None,
+ 'criterion': 'gini',
+ 'max_depth': 120,
+ 'max_features': None,
+ 'max_leaf_nodes': None,
+ 'min_impurity_decrease': 0.0,
+ 'min_impurity_split': None,
+ 'min_samples_leaf': 2,
+ 'min_samples_split': 2,
+ 'min_weight_fraction_leaf': 0.0,
+ 'random_state': 14,
+ 'splitter': 'best'
+
+Test Data Classification Report: 
+precision    recall  f1-score   support
+
+           0       0.67      0.74      0.70     99753
+           1       0.79      0.75      0.77     99753
+           2       0.82      0.77      0.80     99754
+
+    accuracy                           0.75    299260
+   macro avg       0.76      0.75      0.76    299260
+weighted avg       0.76      0.75      0.76    299260
